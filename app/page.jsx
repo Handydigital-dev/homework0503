@@ -73,7 +73,7 @@ function MainComponent() {
             className="text-xl mb-8 opacity-0 translate-y-20 transition duration-500 ease-out delay-200"
             style={{ transform: "translateY(0)", opacity: 1 }}
           >
-            Intuitive  cloud-based SaaS solution to simplify your daily
+            Intuitive cloud-based SaaS solution to simplify your daily
             operations and boost productivity.
           </p>
           <a
@@ -219,9 +219,9 @@ function MainComponent() {
               style={{ transform: "translateY(0)", opacity: 1 }}
             >
               <p className="mb-4">
-                "BizBoost has revolutionized the way we manage our business.
-                It's intuitive, feature-rich, and has significantly improved our
-                productivity."
+                &quot;BizBoost has revolutionized the way we manage our business.
+                It&apos;s intuitive, feature-rich, and has significantly improved our
+                productivity.&quot;
               </p>
               <div className="flex items-center">
                 <img
@@ -240,9 +240,7 @@ function MainComponent() {
               style={{ transform: "translateY(0)", opacity: 1 }}
             >
               <p className="mb-4">
-                "We've been using BizBoost for a few months now, and it has
-                already made a significant impact on our business. The real-time
-                analytics and task management features are game-changers."
+                &quot;We&apos;ve been using BizBoost for over a year now, and it has been a game-changer for our business. The intuitive interface and powerful features have streamlined our operations and boosted our productivity.&quot;
               </p>
               <div className="flex items-center">
                 <img
@@ -252,7 +250,7 @@ function MainComponent() {
                 />
                 <div>
                   <p className="font-bold">Jane Smith</p>
-                  <p className="text-gray-600">Marketing Manager, XYZ Inc.</p>
+                  <p className="text-gray-600">CFO, XYZ Corporation</p>
                 </div>
               </div>
             </div>
@@ -268,18 +266,19 @@ function MainComponent() {
           >
             Frequently Asked Questions
           </h2>
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div
               className="bg-white rounded-lg shadow-md p-6 opacity-0 translate-y-20 transition duration-500 ease-out delay-200"
               style={{ transform: "translateY(0)", opacity: 1 }}
             >
               <h3 className="text-xl font-bold mb-2">
-                How does BizBoost help improve productivity?
+                What is the difference between the Basic and Pro plans?
               </h3>
               <p>
-                BizBoost offers a range of features, such as task management,
-                real-time analytics, and invoice management, that streamline
-                your daily operations and help you focus on what matters most.
+                The main differences are the number of users, available features,
+                and storage capacity. The Pro plan offers unlimited users,
+                advanced features, and 20 GB of storage, while the Basic plan is
+                limited to 10 users, basic features, and 5 GB of storage.
               </p>
             </div>
             <div
@@ -287,12 +286,12 @@ function MainComponent() {
               style={{ transform: "translateY(0)", opacity: 1 }}
             >
               <h3 className="text-xl font-bold mb-2">
-                Is my data secure with BizBoost?
+                Can I cancel my subscription at any time?
               </h3>
               <p>
-                Yes, we take data security seriously. BizBoost uses
-                industry-standard encryption and follows best practices to
-                ensure your data remains safe and secure.
+                Yes, you can cancel your subscription at any time. We don&apos;t
+                require long-term contracts, and you can switch between plans as
+                needed.
               </p>
             </div>
             <div
@@ -300,119 +299,56 @@ function MainComponent() {
               style={{ transform: "translateY(0)", opacity: 1 }}
             >
               <h3 className="text-xl font-bold mb-2">
-                What kind of support does BizBoost provide?
+                Do you offer any discounts or promotions?
               </h3>
               <p>
-                We offer 24/7 customer support via email, phone, and live chat.
-                Our knowledgeable support team is always ready to assist you
-                with any questions or issues you may have.
+                Yes, we occasionally offer discounts and promotions, especially
+                for annual subscriptions or for new customers. Be sure to check
+                our website or contact our sales team for the latest offers.
+              </p>
+            </div>
+            <div
+              className="bg-white rounded-lg shadow-md p-6 opacity-0 translate-y-20 transition duration-500 ease-out delay-800"
+              style={{ transform: "translateY(0)", opacity: 1 }}
+            >
+              <h3 className="text-xl font-bold mb-2">
+                How do I get started with BizBoost?
+              </h3>
+              <p>
+                Getting started with BizBoost is easy! Simply sign up for the
+                plan that best fits your needs, and our onboarding team will
+                guide you through the setup process. We&apos;re here to help you
+                get up and running quickly.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-4">BizBoost</h3>
-              <p className="mb-4">
-                Streamline your business with our intuitive cloud-based SaaS
-                solution.
-              </p>
-              <div className="flex space-x-4">
-                <a href="#" aria-label="Facebook">
-                  <i className="fab fa-facebook text-2xl hover:text-blue-500"></i>
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+          <p>&copy; 2023 BizBoost. All rights reserved.</p>
+          <nav>
+            <ul className="flex space-x-4">
+              <li>
+                <a href="#" className="hover:text-blue-500">
+                  Privacy Policy
                 </a>
-                <a href="#" aria-label="Twitter">
-                  <i className="fab fa-twitter text-2xl hover:text-blue-500"></i>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-500">
+                  Terms of Service
                 </a>
-                <a href="#" aria-label="Instagram">
-                  <i className="fab fa-instagram text-2xl hover:text-blue-500"></i>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-500">
+                  Contact Us
                 </a>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-              <p className="mb-2">123 Main Street</p>
-              <p className="mb-2">City, State 12345</p>
-              <p className="mb-2">info@bizboost.com</p>
-              <p>(123) 456-7890</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-              <ul>
-                <li>
-                  <a
-                    href="#features"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a href="#pricing" className="text-gray-400 hover:text-white">
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#testimonials"
-                    className="text-gray-400 hover:text-white"
-                  >
-                    Testimonials
-                  </a>
-                </li>
-                <li>
-                  <a href="#faq" className="text-gray-400 hover:text-white">
-                    FAQ
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+              </li>
+            </ul>
+          </nav>
         </div>
       </footer>
-
-      <style jsx global>{`
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        .opacity-0 {
-          opacity: 0;
-        }
-
-        .translate-y-20 {
-          transform: translateY(20px);
-        }
-
-        .transition {
-          transition-property: opacity, transform;
-          transition-duration: 0.5s;
-          transition-timing-function: ease-out;
-        }
-
-        .delay-200 {
-          transition-delay: 0.2s;
-        }
-
-        .delay-400 {
-          transition-delay: 0.4s;
-        }
-
-        .delay-600 {
-          transition-delay: 0.6s;
-        }
-      `}</style>
     </div>
   );
 }
